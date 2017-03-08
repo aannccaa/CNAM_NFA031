@@ -3,7 +3,7 @@
 -il est sauvegarde dans le fichier Conversion.java
 -il est compile par javac Conversion.java
 -il est execute par java Conversion
-SAP*/
+SAPx*/
 public class Conversion {
 public static void main (String[] args) {
 // Variables du programme
