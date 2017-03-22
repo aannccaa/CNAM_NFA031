@@ -32,8 +32,6 @@ par l’utilisateur est bien un chiffre (c’est à dire un nombre compris entre 1 et
 public class CalculsMultiplication {
 	public static void main(String[] args) {
 		int n, resultatMultiplication;
-		Terminal.ecrireString("Entrez un chiffre de 1 à 9:");
-		n = Terminal.lireInt();
 		boolean estChiffre = false;
 		String message;
 		message = "Entrez un chiffre de 1 à 9:";
@@ -42,14 +40,13 @@ public class CalculsMultiplication {
 			n = Terminal.lireInt();
 			if (n > 0 && n <= 9) {
 				estChiffre = true;
+				for (int i = 1; i <= 9; i = i + 1) {
+					resultatMultiplication = i * n;
+					Terminal.ecrireStringln(i + " x " + n + " = " + resultatMultiplication);
+				}
 			} else {
 				estChiffre = false;
 			}
-			for (int i = 1; i <= 9; i = i + 1) {
-				resultatMultiplication = i * n;
-				Terminal.ecrireStringln(i + " x " + n + " = " + resultatMultiplication);
-			}
-
 		}
 	}
 }
