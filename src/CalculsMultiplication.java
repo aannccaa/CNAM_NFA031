@@ -35,6 +35,7 @@ public class CalculsMultiplication {
 		boolean estChiffre = false;
 		String message;
 		message = "Entrez un chiffre de 1 à 9:";
+		//while (!estChiffre)
 		while (estChiffre == false) {
 			Terminal.ecrireString(message);
 			n = Terminal.lireInt();
@@ -49,4 +50,28 @@ public class CalculsMultiplication {
 			}
 		}
 	}
+
+	
+	
+	public static void cata(String[] args) {
+		int n = 0, resultatMultiplication;
+
+		String message;
+		message = "Entrez un chiffre de 1 à 9:";
+
+		while (true) {
+			Terminal.ecrireString(message);
+			n = Terminal.lireInt();
+			
+			if (n > 0 && n <= 9) {
+				break;
+			}
+		}
+		
+		for (int i = 1; i <= 9; i = i + 1) {
+			resultatMultiplication = i * n;
+			Terminal.ecrireStringln(i + " x " + n + " = " + resultatMultiplication);
+		}
+	}
+
 }
