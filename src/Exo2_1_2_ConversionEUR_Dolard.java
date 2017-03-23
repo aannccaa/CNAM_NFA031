@@ -18,26 +18,49 @@ en donnant le cours du dollar 1 USD = 0.9272 EUR
  * Modifiez ce programme pour que pour un cours du dollar donné (et qui ne change pas pendant
 l’exécution du programme), on puisse convertir plusieurs sommes. Prévoyez un moyen d’arrêter l’exécution
 du programme.
- */
+ */ 
+////Ma solution:
+
+//public class Exo2_1_2_ConversionEUR_Dolard {
+//	public static void main(String[] args) {
+//		double euros = 1, dollar = 1, cours;
+//		Terminal.ecrireStringln("Cours dollar/eur (valeur de 1 USD en EUR)? ");
+//		cours = Terminal.lireDouble();
+//
+//		while (euros != 0) {
+//			Terminal.ecrireStringln("Somme en euros? ");
+//			euros = Terminal.lireDouble();
+//
+//			if (euros == 0) {
+//				Terminal.ecrireStringln("Programme stoppé");
+//				break;
+//			}
+//
+//			dollar = euros / cours;
+//			Terminal.ecrireStringln("La somme convertie en USD: " + dollar);
+//
+//		}
+//
+//	}
+//}
+
+// corrigé officiel:
 public class Exo2_1_2_ConversionEUR_Dolard {
 	public static void main(String[] args) {
 		double euros = 1, dollar = 1, cours;
 		Terminal.ecrireStringln("Cours dollar/eur (valeur de 1 USD en EUR)? ");
 		cours = Terminal.lireDouble();
-
-		while (euros != 0) {
+		char reponse ='o';
+		
+		while (reponse == 'o') {
 			Terminal.ecrireStringln("Somme en euros? ");
 			euros = Terminal.lireDouble();
-
-			if (euros == 0) {
-				Terminal.ecrireStringln("Programme stoppé");
-				break;
-			}
-
 			dollar = euros / cours;
 			Terminal.ecrireStringln("La somme convertie en USD: " + dollar);
-
+			Terminal.ecrireStringln("Autre conversion? (tapper o pour oui / n pour non: ");
+			reponse = Terminal.lireChar();
 		}
 
 	}
 }
+
