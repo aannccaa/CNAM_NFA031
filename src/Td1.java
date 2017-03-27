@@ -40,8 +40,8 @@ public class Td1 {
 public static void main (String [] arguments)
 {
 int n =2;
-char c;
-boolean b;
+//char c;
+//boolean b;
 Terminal.ecrireStringln("exo 2.2");
 Terminal.ecrireDoubleln(3.0+2);
 n=3+2;
