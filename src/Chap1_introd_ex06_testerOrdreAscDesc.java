@@ -1,5 +1,5 @@
-/*
-Tester si trois nombres entiers sont triés dans l’ordre croissant ou décroissant.
+ï»¿/*
+Tester si trois nombres entiers sont triÃ©s dans lâ€™ordre croissant ou dÃ©croissant.
  */
 
 public class Chap1_introd_ex06_testerOrdreAscDesc {
@@ -16,7 +16,7 @@ public class Chap1_introd_ex06_testerOrdreAscDesc {
 			if ((c < b) && (b < a)) {
 				System.out.println("les nombres sont en ordre decroissante");
 			} else {
-				System.out.println("les nombres ne sont pas triés");
+				System.out.println("les nombres ne sont pas triÃ©s");
 			}
 		}
 	}

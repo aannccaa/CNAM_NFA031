@@ -1,6 +1,6 @@
-/*
- Écrivez un programme qui affiche la valeur de la fonction x^2
-(la fonction qui à un entier associe son carré) 
+ï»¿/*
+ Ã‰crivez un programme qui affiche la valeur de la fonction x^2
+(la fonction qui Ã  un entier associe son carrÃ©) 
 pour les dix premiers entiers positifs.
  */
 public class Carre {

@@ -1,10 +1,10 @@
-/*
- Écrivez un programme qui saisit une date correcte sous la forme de trois entiers (jour, mois et
-année). Le programme doit tester si la date est correcte, et si ce n’est pas le cas, doit signaler le type
-d’erreur rencontrée, puis demander une nouvelle saisie. Le programme finit lorsqu’une date correcte
-est enfin saisie, avec l’affichage de celle-ci. Dans le cas où le mois de la date est février, votre programme
-devra calculer si l’année est bissextile. De manière générale, il devra calculer le nombre de
-jours maximal du le mois de la date saisie, de manière à valider le numéro de jour qui a été saisi. 
+ï»¿/*
+ Ã‰crivez un programme qui saisit une date correcte sous la forme de trois entiers (jour, mois et
+annÃ©e). Le programme doit tester si la date est correcte, et si ce nâ€™est pas le cas, doit signaler le type
+dâ€™erreur rencontrÃ©e, puis demander une nouvelle saisie. Le programme finit lorsquâ€™une date correcte
+est enfin saisie, avec lâ€™affichage de celle-ci. Dans le cas oÃ¹ le mois de la date est fÃ©vrier, votre programme
+devra calculer si lâ€™annÃ©e est bissextile. De maniÃ¨re gÃ©nÃ©rale, il devra calculer le nombre de
+jours maximal du le mois de la date saisie, de maniÃ¨re Ã  valider le numÃ©ro de jour qui a Ã©tÃ© saisi. 
  */
 
 public class DateCorrecte {
@@ -35,12 +35,12 @@ public class DateCorrecte {
 
 	public static void main(String[] args) {
 
-		int annee = readInteger("Entrez une année", "L'année doit être", 0, true, -1, false);
-		int mois = readInteger("Entrez un mois", "Le mois doit être", 1, true, 12, true);
+		int annee = readInteger("Entrez une annÃ©e", "L'annÃ©e doit Ãªtre", 0, true, -1, false);
+		int mois = readInteger("Entrez un mois", "Le mois doit Ãªtre", 1, true, 12, true);
 
 		int nbJoursMax = getMaxJoursDansMois(annee, mois);
 
-		int jour = readInteger("Entrez un jour", "Le jour doit être", 1, true, nbJoursMax, true);
+		int jour = readInteger("Entrez un jour", "Le jour doit Ãªtre", 1, true, nbJoursMax, true);
 
 		Terminal.ecrireStringln(jour + " / " + mois + " / " + annee);
 	}
@@ -63,11 +63,11 @@ public class DateCorrecte {
 	}
 }
 
-// corrigé officiel:
+// corrigÃ© officiel:
 // class DateCorrecte {
 // /*
 // * Sasit une date et teste si elle correcte. Demande une nouvelle saisie
-// * tant que la date est incorrecte et signale l’erreur eventuelle (1 erreur
+// * tant que la date est incorrecte et signale lâ€™erreur eventuelle (1 erreur
 // * a la fois).
 // */
 // public static void main(String[] args) {
@@ -84,7 +84,7 @@ public class DateCorrecte {
 // Terminal.ecrireString("Donnez une annee: ");
 // annee = Terminal.lireInt();
 // if (annee <= 0) {
-// Terminal.ecrireStringln("L’annee doit etre positive.");
+// Terminal.ecrireStringln("Lâ€™annee doit etre positive.");
 // } else if (mois < 1 || mois > 12) {
 // Terminal.ecrireStringln("Le mois doit etre compris entre 1..12");
 // } else {
@@ -103,7 +103,7 @@ public class DateCorrecte {
 // }
 // if (jour < 1 || jour > nbJours) {
 // Terminal.ecrireString("Numero de jour incorrect: pour le mois " + mois);
-// Terminal.ecrireString(" de l’annee " + annee);
+// Terminal.ecrireString(" de lâ€™annee " + annee);
 // Terminal.ecrireStringln(", le jour doit etre compris entre 1.." + nbJours);
 // } else {
 // dateOK = true;

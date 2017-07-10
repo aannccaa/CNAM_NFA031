@@ -1,12 +1,12 @@
-//Tester si un entier appartient à l’intervalle donné par deux nombres entiers.
+ï»¿//Tester si un entier appartient Ã  lâ€™intervalle donnÃ© par deux nombres entiers.
 
 public class EntierDansInterval {
 	public static void main(String[] args) {
 		int n, min, max, temp1, temp2;
 		boolean dansInterval;
-		Terminal.ecrireString("Entrez un nb. entier pour definir une extrémité d'interval: ");
+		Terminal.ecrireString("Entrez un nb. entier pour definir une extrÃ©mitÃ© d'interval: ");
 		temp1 = Terminal.lireInt();
-		Terminal.ecrireString("Entrez un nb. entier pour definir l' autre extrémité d'interval: ");
+		Terminal.ecrireString("Entrez un nb. entier pour definir l' autre extrÃ©mitÃ© d'interval: ");
 		temp2 = Terminal.lireInt();
 
 		if (temp1 < temp2) {

@@ -1,4 +1,4 @@
-/*
+﻿/*
 Écrivez un programme qui calcule x^y où x et y sont deux entiers 
 saisis au clavier. Pour cela il faut multiplier y fois le produit de x. 
 Par exemple 2^3 = .

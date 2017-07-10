@@ -1,5 +1,5 @@
-/*
-Calculer la conversion en dollars d’une somme en euros saisie au clavier
+ï»¿/*
+Calculer la conversion en dollars dâ€™une somme en euros saisie au clavier
 en donnant le cours du dollar 1 USD = 0.9272 EUR
  */
 //public class Exo2_1_2_ConversionEUR_Dolard {
@@ -15,8 +15,8 @@ en donnant le cours du dollar 1 USD = 0.9272 EUR
 //}
 
 /*
- * Modifiez ce programme pour que pour un cours du dollar donné (et qui ne change pas pendant
-l’exécution du programme), on puisse convertir plusieurs sommes. Prévoyez un moyen d’arrêter l’exécution
+ * Modifiez ce programme pour que pour un cours du dollar donnÃ© (et qui ne change pas pendant
+lâ€™exÃ©cution du programme), on puisse convertir plusieurs sommes. PrÃ©voyez un moyen dâ€™arrÃªter lâ€™exÃ©cution
 du programme.
  */ 
 ////Ma solution:
@@ -32,7 +32,7 @@ du programme.
 //			euros = Terminal.lireDouble();
 //
 //			if (euros == 0) {
-//				Terminal.ecrireStringln("Programme stoppé");
+//				Terminal.ecrireStringln("Programme stoppÃ©");
 //				break;
 //			}
 //
@@ -44,7 +44,7 @@ du programme.
 //	}
 //}
 
-// corrigé officiel:
+// corrigÃ© officiel:
 public class Exo2_1_2_ConversionEUR_Dolard {
 	public static void main(String[] args) {
 		double euros = 1, dollar = 1, cours;

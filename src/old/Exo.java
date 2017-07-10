@@ -1,7 +1,7 @@
-/*
-Compilez puis exécutez ce programme. En vous aidant des messages affichés, identifiez les instructions qui
-les ont produit et expliquez ce que le programme fait. Donnez au moins deux exemples d'exécution avec les
-messages affichés à chaque fois. Que se passe-t-il si les valeurs saisies pour a,b,c sont égales?
+ï»¿/*
+Compilez puis exÃ©cutez ce programme. En vous aidant des messages affichÃ©s, identifiez les instructions qui
+les ont produit et expliquez ce que le programme fait. Donnez au moins deux exemples d'exÃ©cution avec les
+messages affichÃ©s Ã  chaque fois. Que se passe-t-il si les valeurs saisies pour a,b,c sont Ã©gales?
 */
 
 //public class Exo {
@@ -21,7 +21,7 @@ messages affichés à chaque fois. Que se passe-t-il si les valeurs saisies pour a
 //}
 
 /*
- Changez ce programme de manière à afficher true lorsque a,b,c sont triés dans un ordre décroissant ou égal
+ Changez ce programme de maniÃ¨re Ã  afficher true lorsque a,b,c sont triÃ©s dans un ordre dÃ©croissant ou Ã©gal
 (chaque element est plus petit ou egal au precedent).
  */
 public class Exo {

@@ -1,6 +1,6 @@
-/*
-Écrivez un programme qui affiche la table de multiplication d’un chiffre. Ce chiffre sera entré
-par l’utilisateur. Par exemple, si le chiffre est 3, le programme affiche :
+ï»¿/*
+Ã‰crivez un programme qui affiche la table de multiplication dâ€™un chiffre. Ce chiffre sera entrÃ©
+par lâ€™utilisateur. Par exemple, si le chiffre est 3, le programme affiche :
 1 x 3 = 3
 2 x 3 = 6
 3 x 3 = 9
@@ -25,8 +25,8 @@ par l’utilisateur. Par exemple, si le chiffre est 3, le programme affiche :
 //}
 
 /*
-Modifiez votre programme pour qu’il vérifie que le nombre entré
-par l’utilisateur est bien un chiffre (c’est à dire un nombre compris entre 1 et 9).
+Modifiez votre programme pour quâ€™il vÃ©rifie que le nombre entrÃ©
+par lâ€™utilisateur est bien un chiffre (câ€™est Ã  dire un nombre compris entre 1 et 9).
  */
 
 public class CalculsMultiplication {
@@ -34,7 +34,7 @@ public class CalculsMultiplication {
 		int n, resultatMultiplication;
 		boolean estChiffre = false;
 		String message;
-		message = "Entrez un chiffre de 1 à 9:";
+		message = "Entrez un chiffre de 1 Ã  9:";
 		//while (!estChiffre)
 		while (estChiffre == false) {
 			Terminal.ecrireString(message);
@@ -57,7 +57,7 @@ public class CalculsMultiplication {
 		int n = 0, resultatMultiplication;
 
 		String message;
-		message = "Entrez un chiffre de 1 à 9:";
+		message = "Entrez un chiffre de 1 Ã  9:";
 
 		while (true) {
 			Terminal.ecrireString(message);

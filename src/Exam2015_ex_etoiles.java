@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 Ecrivez un programme qui fasse un petit dessin de ce genre :
 ****
 **
@@ -7,8 +7,8 @@ Ecrivez un programme qui fasse un petit dessin de ce genre :
 ****
 **
 ****
-Une ligne sur deux, il y a 4 etoiles, sur les autres lignes, il y en a deux, d ´ ecal ´ ees d’un espace. ´
-Dans le programme le nombre de lignes affichee est entr ´ e au clavier. Le dessin ci-dessus repr ´ esente le ´
+Une ligne sur deux, il y a 4 etoiles, sur les autres lignes, il y en a deux, d Â´ ecal Â´ ees dâ€™un espace. Â´
+Dans le programme le nombre de lignes affichee est entr Â´ e au clavier. Le dessin ci-dessus repr Â´ esente le Â´
 cas ou ce nombre vaut 7.
 */
 

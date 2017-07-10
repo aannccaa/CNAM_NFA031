@@ -1,4 +1,4 @@
-//affiche les n premiers entiers pairs avec n demandé à l’utilisateur.
+ï»¿//affiche les n premiers entiers pairs avec n demandÃ© Ã  lâ€™utilisateur.
 public class EntiersPairs {
 	public static void main (String[] args) {
 		int n;

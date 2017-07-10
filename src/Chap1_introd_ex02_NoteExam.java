@@ -1,9 +1,9 @@
-/*
- Calculer la note finale d’une unité d’enseignement étant données la note du partiel et celle de
-l’examen et sachant que :
-– une note inférieure à 7 à l’examen est éliminatoire
-– si la note d’examen est supérieure à 7, la note finale est la moyenne des deux notes si elle
-avantage l’étudiant. Sinon, la note finale est la note d’examen.
+ï»¿/*
+ Calculer la note finale dâ€™une unitÃ© dâ€™enseignement Ã©tant donnÃ©es la note du partiel et celle de
+lâ€™examen et sachant que :
+â€“ une note infÃ©rieure Ã  7 Ã  lâ€™examen est Ã©liminatoire
+â€“ si la note dâ€™examen est supÃ©rieure Ã  7, la note finale est la moyenne des deux notes si elle
+avantage lâ€™Ã©tudiant. Sinon, la note finale est la note dâ€™examen.
  */
 
 public class Chap1_introd_ex02_NoteExam {
@@ -16,7 +16,7 @@ public class Chap1_introd_ex02_NoteExam {
 		String message;
 
 		if (noteExamen < 7) {
-			message = "Eliminé car " + noteExamen + " <7.";
+			message = "EliminÃ© car " + noteExamen + " <7.";
 		} else {
 			if (noteExamen < notePartiel) {
 				noteFinale = (noteExamen + notePartiel) / 2;

@@ -1,4 +1,4 @@
-public class Exemple5_1{
+﻿public class Exemple5_1{
 	public static void main(String[] args) {
 		int total = 0;
 		int x;

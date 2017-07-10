@@ -1,6 +1,6 @@
-/*
-Tester si une année est bissextile. On sait qu’une année divisible par 4 est bissextile sauf si elle
-est divisible par 100, cependant les années divisibles par 400 sont également bissextiles.
+ï»¿/*
+Tester si une annÃ©e est bissextile. On sait quâ€™une annÃ©e divisible par 4 est bissextile sauf si elle
+est divisible par 100, cependant les annÃ©es divisibles par 400 sont Ã©galement bissextiles.
 */
 
 public class Chap1_introd_ex04_AnneeBissecstile {
@@ -24,9 +24,9 @@ public class Chap1_introd_ex04_AnneeBissecstile {
 //		}
 
 		if (isBissectile) {
-			message = "L'année " + annee + " est bissecstille.";
+			message = "L'annÃ©e " + annee + " est bissecstille.";
 		} else {
-			message = "L'année " + annee + " n'est pas bissecstille.";
+			message = "L'annÃ©e " + annee + " n'est pas bissecstille.";
 		}
 
 		System.out.println(message);

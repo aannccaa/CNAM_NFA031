@@ -1,5 +1,5 @@
-/*
-Tester si un entier appartient à l’intervalle donné par deux nombres entiers.
+ï»¿/*
+Tester si un entier appartient Ã  lâ€™intervalle donnÃ© par deux nombres entiers.
  */
 
 public class Chap1_introd_ex03_EntierDansInterval {

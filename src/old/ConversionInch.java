@@ -1,4 +1,4 @@
-//convertit une longueur en inch en une longueur en centimetres
+ï»¿//convertitÂ uneÂ longueurÂ enÂ inchÂ enÂ uneÂ longueurÂ enÂ centimetres
 public class ConversionInch {
 	public static void main (String[] args){
 		double inch, cm;

@@ -1,4 +1,4 @@
-/*
+﻿/*
  Écrivez un programme qui calcule la somme des 10 premiers entiers. Cette somme sera mise
 dans une variable qui contiendra d’abord la somme des 0 premiers entiers, puis celle des 1
 premiers entiers, puis des 2 premiers entiers, etc. A la fin du calcul, le résultat sera affiché à

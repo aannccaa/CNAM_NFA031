@@ -1,4 +1,4 @@
-//////affiche les 10 premiers entiers en partant de 10 :
+﻿//////affiche les 10 premiers entiers en partant de 10 :
 //public class premEntiers {
 //	public static void main (String[] args) {
 //		for (int i=10; i>0; i=i-1) {

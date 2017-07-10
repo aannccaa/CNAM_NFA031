@@ -1,23 +1,23 @@
-/*
+ï»¿/*
 Soit le morceau de code Java suivant : (x * 3) + 1
-– quel nom donne-t-on à ce morceau de code tout entier ?
+â€“ quel nom donne-t-on Ã  ce morceau de code tout entier ?
 => expression
-– quels sont les opérateurs ?
+â€“ quels sont les opÃ©rateurs ?
 => * et +
-– quels sont les opérandes de * ? 
+â€“ quels sont les opÃ©randes de * ? 
 	=> x et 3
-– quels sont les opérandes de + ?
+â€“ quels sont les opÃ©randes de + ?
 => (x * 3) et 1
-– quel genre de chose est x dans ce morceau de code ?
-=> variable numérique
-– quel(s) type(s) peut éventuellement avoir x ?
+â€“ quel genre de chose est x dans ce morceau de code ?
+=> variable numÃ©rique
+â€“ quel(s) type(s) peut Ã©ventuellement avoir x ?
 => int, ou  double...
-– quel est le type de 3 et 1 ?
+â€“ quel est le type de 3 et 1 ?
 => int
-– quel est le type de (x * 3) + 1 ?
+â€“ quel est le type de (x * 3) + 1 ?
 => int ou double... (en fonction dy type de x)
-– quelle est la valeur de (x * 3) + 1 ?
-=> c'est le résultat du calcul, il depend de x
+â€“ quelle est la valeur de (x * 3) + 1 ?
+=> c'est le rÃ©sultat du calcul, il depend de x
  
  */
 

@@ -1,17 +1,17 @@
-/*
-On veut utiliser un tableau pour stocker les temperatures maximales d’un mois de 31 jours. Une temperature
+ï»¿/*
+On veut utiliser un tableau pour stocker les temperatures maximales dâ€™un mois de 31 jours. Une temperature
 est un nombre a virgule. `
 Question 1
 Donnez le code pour creer ce tableau, lire au clavier tous 31 temperatures et les afficher.
-On veut maintenant enregistrer les temperatures des 12 mois de l’annee. Dans cette question, vous
+On veut maintenant enregistrer les temperatures des 12 mois de lâ€™annee. Dans cette question, vous
 supposerez que tous les mois ont 31 jours.
 Donnez le code pour creer le tableau, le remplir de temperatures lues au clavier.
 Question 3
-Donnez le code permettant de calculer la temperature moyenne d’un mois donne sous forme d’un
+Donnez le code permettant de calculer la temperature moyenne dâ€™un mois donne sous forme dâ€™un
 nombre (1 pour janvier, 12 pour decembre).
 Question 4
-Comment peut-on faire pour gerer le fait que tous les mois n’ont pas 31 jours ? Donnez soit du code,
-soit des explications, soit les deux (pas plus de 10 lignes d’explications).
+Comment peut-on faire pour gerer le fait que tous les mois nâ€™ont pas 31 jours ? Donnez soit du code,
+soit des explications, soit les deux (pas plus de 10 lignes dâ€™explications).
 
  */
 public class Exam_2012_2_ex4 {

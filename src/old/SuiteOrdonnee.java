@@ -1,4 +1,4 @@
-//Tester si trois nombres entiers sont triés dans l’ordre croissant ou décroissant
+ï»¿//Tester si trois nombres entiers sont triÃ©s dans lâ€™ordre croissant ou dÃ©croissant
 public class SuiteOrdonnee {
 public static void main (String[] args){
 	int n1, n2, n3;
@@ -16,7 +16,7 @@ public static void main (String[] args){
 		Terminal.ecrireString("Ordre croissante");
 	}
 	else {
-		Terminal.ecrireString("Les nombres introduits ne font pas partie d'une suite ordonnée");
+		Terminal.ecrireString("Les nombres introduits ne font pas partie d'une suite ordonnÃ©e");
 	}
 }
 }

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 Calculer puis afficher le plus grand parmi trois nombres entiers.
  */
 
@@ -10,8 +10,8 @@ public class Chap1_introd_ex05_PlusGrandEntier {
 		int c = 30;
 		int max;
 
-		// j'intialise max avec un des nombre et je le compare succéssivement
-		// avec les 2 autres. Si un des 2 nombre > Max, Max mémorise sa valeur.
+		// j'intialise max avec un des nombre et je le compare succÃ©ssivement
+		// avec les 2 autres. Si un des 2 nombre > Max, Max mÃ©morise sa valeur.
 		max = a;
 		if (b > max) {
 			max = b;

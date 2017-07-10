@@ -1,6 +1,6 @@
-/*
- Ecrivez un programme qui affiche un carre de 10 lignes et 10 colonnes o ´ u la premi ` ere cas contient 1 et `
-ensuite chaque case contient 1 de plus que la prec´ edente.
+ï»¿/*
+ Ecrivez un programme qui affiche un carre de 10 lignes et 10 colonnes o Â´ u la premi ` ere cas contient 1 et `
+ensuite chaque case contient 1 de plus que la precÂ´ edente.
  */
 public class Exam_2012_2_ex3_3 {
 

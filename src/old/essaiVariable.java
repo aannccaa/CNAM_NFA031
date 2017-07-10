@@ -1,4 +1,4 @@
-public class essaiVariable {
+﻿public class essaiVariable {
 	public static void main (String[] args) {
 		int x;
 		int y;

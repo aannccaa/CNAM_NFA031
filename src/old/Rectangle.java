@@ -1,4 +1,4 @@
-// affiche un rectangle de 5 lignes de 4 étoiles
+ï»¿// affiche un rectangle de 5 lignes de 4 Ã©toiles
 public class Rectangle {
 	public static void main (String[] args) {
 		Terminal.ecrireStringln("****");
@@ -10,7 +10,7 @@ public class Rectangle {
 }
 
 
-////affiche 5 lignes de 4 étoiles
+////affiche 5 lignes de 4 Ã©toiles
 //public class Rectangle {
 //	public static void main (String[] args) {
 //		for (int i=0; i<5; i=i+1) {
@@ -20,7 +20,7 @@ public class Rectangle {
 //}
 
 
-////affiche 4 lignes de 4 étoiles
+////affiche 4 lignes de 4 Ã©toiles
 //public class Rectangle {
 //	public static void main (String[] args) {
 //		for (int i=1; i<5; i=i+1) {
@@ -30,7 +30,7 @@ public class Rectangle {
 //}
 
 
-////affiche 3 lignes de 4 étoiles
+////affiche 3 lignes de 4 Ã©toiles
 //public class Rectangle {
 //	public static void main (String[] args) {
 //		for (int i=0; i<5; i=i+2) {
@@ -41,7 +41,7 @@ public class Rectangle {
 
 
 
-////affiche 2 lignes de 4 étoiles
+////affiche 2 lignes de 4 Ã©toiles
 //public class Rectangle {
 //	public static void main (String[] args) {
 //		for (int i=1; i<5; i=i+2) {
@@ -51,11 +51,11 @@ public class Rectangle {
 //}
 
 
-////affiche un rectangle d’étoiles dont la longueur est donnée par l’utilisateur (la largeur restera 4)
+////affiche un rectangle dâ€™Ã©toiles dont la longueur est donnÃ©e par lâ€™utilisateur (la largeur restera 4)
 //public class Rectangle {
 //	public static void main (String[] args) {
 //		int l;
-//		Terminal.ecrireStringln("combien de lignes d'étoiles? :");
+//		Terminal.ecrireStringln("combien de lignes d'Ã©toiles? :");
 //		l=Terminal.lireInt();
 //		for (int i=0; i<l; i=i+1) {
 //		Terminal.ecrireStringln("****");
@@ -64,12 +64,12 @@ public class Rectangle {
 //}
 
 
-////affiche un rectangle d’étoiles dont la longueur est donnée par l’utilisateur (la largeur restera 4).
-////les lignes d'étoiles précédées du numéro de ligne
+////affiche un rectangle dâ€™Ã©toiles dont la longueur est donnÃ©e par lâ€™utilisateur (la largeur restera 4).
+////les lignes d'Ã©toiles prÃ©cÃ©dÃ©es du numÃ©ro de ligne
 //public class Rectangle {
 //	public static void main (String[] args) {
 //		int l;
-//		Terminal.ecrireStringln("combien de lignes d'étoiles? :");
+//		Terminal.ecrireStringln("combien de lignes d'Ã©toiles? :");
 //		l=Terminal.lireInt();
 //		for (int i=0; i<l; i=i+1) {
 //			Terminal.ecrireInt(i);

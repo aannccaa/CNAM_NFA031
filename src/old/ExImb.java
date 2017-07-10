@@ -1,4 +1,4 @@
-//boucles imbriqu�es
+﻿//boucles imbriquées
 public class ExImb {
 	public static void main (String[] args) {
 		for (int i=0; i<5; i=i+1) {

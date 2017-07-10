@@ -1,4 +1,4 @@
-//Calculer puis afficher le plus grand parmi trois nombres entiers.
+﻿//Calculer puis afficher le plus grand parmi trois nombres entiers.
 public class LePlusGrandEntier {
 	public static void main(String[] args) {
 		int n1, n2, n3, max;

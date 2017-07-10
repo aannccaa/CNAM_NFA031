@@ -1,4 +1,4 @@
-/*
+﻿/*
 Ecrivez un programme qui fasse un petit dessin de ce genre :
 *
 **

@@ -1,18 +1,18 @@
-/*
-Tester si une année est bissextile. On sait qu’une année divisible par 4 est bissextile sauf si elle
-est divisible par 100, cependant les années divisibles par 400 sont également bissextiles.
+ï»¿/*
+Tester si une annÃ©e est bissextile. On sait quâ€™une annÃ©e divisible par 4 est bissextile sauf si elle
+est divisible par 100, cependant les annÃ©es divisibles par 400 sont Ã©galement bissextiles.
 
  */
 public class AnneBissecstile {
 	public static void main(String[] args) {
 		int a;
-		Terminal.ecrireString("Entré une année (aaaa): ");
+		Terminal.ecrireString("EntrÃ© une annÃ©e (aaaa): ");
 		a = Terminal.lireInt();
 		String message;
 		if ((a % 4 == 0 && a % 100 !=0) || (a % 400 == 0)) {
-			message = "L'année " + a + " est bissecticle";
+			message = "L'annÃ©e " + a + " est bissecticle";
 		} else {
-			message = "L'année " + a + " n'est pas bissecticle";
+			message = "L'annÃ©e " + a + " n'est pas bissecticle";
 		}
 		Terminal.ecrireString(message);
 	}

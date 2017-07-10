@@ -1,4 +1,4 @@
-/* Premier programme
+﻿/* Premier programme
 -a enregistrer dans le fichier Bonjour.java
 -a compilar par javac Bonjour.java
 -a executer par java Bonjour

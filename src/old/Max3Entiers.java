@@ -1,4 +1,4 @@
-public class Max3Entiers {
+﻿public class Max3Entiers {
 	public static void main (String [] args) {
 	int a, b, c, max=-1;
 	Terminal.ecrireStringln("a?: ");

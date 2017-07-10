@@ -1,19 +1,19 @@
-/*
- On represente les noms des eleves d’une classe au moyen d’un tableau de String et leurs notes au moyen `
-d’un tableau de double. Les deux tableaux ont la meme longueur et l’ordre est le m ˆ eme dans les deux ˆ
-tableaux. Par exemple, si le nom d’un eleve est dans la 5 ` eme case du tableau de noms, alors sa note est dans `
+ï»¿/*
+ On represente les noms des eleves dâ€™une classe au moyen dâ€™un tableau de String et leurs notes au moyen `
+dâ€™un tableau de double. Les deux tableaux ont la meme longueur et lâ€™ordre est le m Ë† eme dans les deux Ë†
+tableaux. Par exemple, si le nom dâ€™un eleve est dans la 5 ` eme case du tableau de noms, alors sa note est dans `
 la 5eme case du tableau de notes. Chaque ` eleve a une seule note. `
-Dans cet exercice, on vous demande d’ecrire des m ethodes, il n’est pas demand e de main. Ces m ethodes ´
+Dans cet exercice, on vous demande dâ€™ecrire des m ethodes, il nâ€™est pas demand e de main. Ces m ethodes Â´
 ne doivent faire aucun affichage et aucune lecture au clavier.
-1. ecrivez une m ethode qui renvoie le num ero de la case contenant le nom d’un eleve. On rappelle que `
-la comparaison de String se fait avec la methode equals. Si le nom n’est pas celui d’un eleve de la `
-classe, la methode renvoie -1. ´
-2. ecrivez une m ethode qui renvoie la note d’un eleve dont on donne le nom. Si le nom donn ` e, n’est pas ´
-celui d’un eleve de la classe, la m ` ethode renvoie -1.0. Vous pouvez utiliser la m ethode d efinie a la `
-question precedente. ´
-3. ecrivez une m ethode qui calcule le nombre d’ eleves ayant au-dessus de 10. `
-4. ecrivez une m ethode qui renvoie la nom de l’ eleve qui a la meilleure note de la classe (ou un d’entre `
-ceux qui ont la meilleure note en cas d’ex-aequo).
+1. ecrivez une m ethode qui renvoie le num ero de la case contenant le nom dâ€™un eleve. On rappelle que `
+la comparaison de String se fait avec la methode equals. Si le nom nâ€™est pas celui dâ€™un eleve de la `
+classe, la methode renvoie -1. Â´
+2. ecrivez une m ethode qui renvoie la note dâ€™un eleve dont on donne le nom. Si le nom donn ` e, nâ€™est pas Â´
+celui dâ€™un eleve de la classe, la m ` ethode renvoie -1.0. Vous pouvez utiliser la m ethode d efinie a la `
+question precedente. Â´
+3. ecrivez une m ethode qui calcule le nombre dâ€™ eleves ayant au-dessus de 10. `
+4. ecrivez une m ethode qui renvoie la nom de lâ€™ eleve qui a la meilleure note de la classe (ou un dâ€™entre `
+ceux qui ont la meilleure note en cas dâ€™ex-aequo).
  */
 public class Exam2012_2_ex5 {
 

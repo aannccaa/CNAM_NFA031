@@ -1,4 +1,4 @@
-/*
+﻿/*
 true and false = false 
 true and true = true
 not true = false

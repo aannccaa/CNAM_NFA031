@@ -1,4 +1,4 @@
-/* Un premier programme:
+﻿/* Un premier programme:
 -son nom est Conversion
 -il est sauvegarde dans le fichier Conversion.java
 -il est compile par javac Conversion.java

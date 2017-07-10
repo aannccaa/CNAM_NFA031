@@ -1,4 +1,4 @@
-//variable locale à une boucle for
+ï»¿//variable locale Ã  une boucle for
 public class Bloc1 {
 	public static void main (String[] args) {
 		int somme=0;
@@ -8,8 +8,8 @@ public class Bloc1 {
 		for (int i=1; i<=n; i++) {// dans ce bloc, i existe
 			somme = somme+i;
 		}// fin de vie de i
-		// ici, i n’existe pas	
-		// Impossible d’ecrire Terminal.ecrireInt(i)
-		Terminal.ecrireStringln("Somme des nombres de 1 à n = " + somme);
+		// ici, i nâ€™existe pas	
+		// Impossible dâ€™ecrire Terminal.ecrireInt(i)
+		Terminal.ecrireStringln("Somme des nombres de 1 Ã  n = " + somme);
 	}
 }

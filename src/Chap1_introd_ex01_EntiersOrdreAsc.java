@@ -1,5 +1,5 @@
-/*
-tester si trois nombres entiers sont triés dans l’ordre croissant.
+ï»¿/*
+tester si trois nombres entiers sont triÃ©s dans lâ€™ordre croissant.
  */
 public class Chap1_introd_ex01_EntiersOrdreAsc {
 

@@ -1,4 +1,4 @@
-//affiche prix TCC pour un prix HT et taux rentr�s par l'utilisateur
+﻿//affiche prix TCC pour un prix HT et taux rentrés par l'utilisateur
 public class PrixTTC2 {
 	public static void main (String[] args) {
 		double pHT,pTTC;

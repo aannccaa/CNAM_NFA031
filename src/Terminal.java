@@ -1,4 +1,4 @@
-import java.io.*;
+﻿import java.io.*;
 public class Terminal{    
     static BufferedReader in =
 	new BufferedReader(new InputStreamReader(System.in));

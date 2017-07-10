@@ -1,4 +1,4 @@
-public class PuissanceCata {
+﻿public class PuissanceCata {
 	public static void main(String[] args) {
 
 		Terminal.ecrireStringln("Teste:");

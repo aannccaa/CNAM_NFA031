@@ -1,6 +1,6 @@
-/*
-convertir une somme en euros en une somme en dollars 
-avec le taux de change de 1 euro pour 1,30 dollars
+ï»¿/*
+convertirÂ uneÂ sommeÂ enÂ eurosÂ enÂ uneÂ sommeÂ enÂ dollarsÂ 
+avecÂ le tauxÂ deÂ changeÂ deÂ 1Â euroÂ pourÂ 1,30Â dollars
 */
 
 public class ConversionEUR_USD {

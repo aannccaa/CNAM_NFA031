@@ -1,4 +1,4 @@
-public class Exo3_3 {
+﻿public class Exo3_3 {
 	public static void main(String[] args) {
 		int a = 2;
 		int x = 4;

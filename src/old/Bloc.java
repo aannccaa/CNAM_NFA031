@@ -1,4 +1,4 @@
-public class Bloc {
+﻿public class Bloc {
 	public static void main (String[] args) {/*debut bloc 1*/
 		int a=2;
 		Terminal.ecrireStringln("valeur de a: "+ a );

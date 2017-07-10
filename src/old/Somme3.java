@@ -1,4 +1,4 @@
-public class Somme3 {
+﻿public class Somme3 {
 public static void main (String [] arguments) {
 int x = 3;
 int y = 4;

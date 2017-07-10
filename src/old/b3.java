@@ -1,5 +1,5 @@
-//Ecrire les, sur une ligne, les entiers impairs de 1 à 9
-//la boucle while ne s'arrête pas car la condition i=10 n'est jamais vrai)
+ï»¿//Ecrire les, sur une ligne, les entiers impairs de 1 Ã  9
+//la boucle while ne s'arrÃªte pas car la condition i=10 n'est jamais vrai)
 public class b3 {
 	public static void main (String[] args) {
 		

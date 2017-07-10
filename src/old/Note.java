@@ -1,9 +1,9 @@
-/*
-– Calculer la note finale d’une unité d’enseignement étant données la note du partiel et celle de
-l’examen et sachant que :
-– une note inférieure à 7 à l’examen est éliminatoire
-– si la note d’examen est supérieure à 7, la note finale est la moyenne des deux notes si elle
-avantage l’étudiant. Sinon, la note finale est la note d’examen.
+ï»¿/*
+â€“ Calculer la note finale dâ€™une unitÃ© dâ€™enseignement Ã©tant donnÃ©es la note du partiel et celle de
+lâ€™examen et sachant que :
+â€“ une note infÃ©rieure Ã  7 Ã  lâ€™examen est Ã©liminatoire
+â€“ si la note dâ€™examen est supÃ©rieure Ã  7, la note finale est la moyenne des deux notes si elle
+avantage lâ€™Ã©tudiant. Sinon, la note finale est la note dâ€™examen.
 */
 
 //public class Note {
@@ -24,7 +24,7 @@ avantage l’étudiant. Sinon, la note finale est la note d’examen.
 //			}
 //		}
 //		else {
-//			Terminal.ecrireStringln("Eliminé, car note examen inférieure à 7 ( " + ne +" )");						
+//			Terminal.ecrireStringln("EliminÃ©, car note examen infÃ©rieure Ã  7 ( " + ne +" )");						
 //		}
 //	}
 //}
@@ -36,7 +36,7 @@ public class Note {
 		double noteExam;
 		noteExam = Terminal.lireDouble();
 		if (noteExam < 7) {
-			Terminal.ecrireStringln("Résultat: Eliminé, car note examen inférieure à 7 ( " + noteExam + " )");
+			Terminal.ecrireStringln("RÃ©sultat: EliminÃ©, car note examen infÃ©rieure Ã  7 ( " + noteExam + " )");
 		} else {
 			double noteFinale;
 			Terminal.ecrireString("Entrez note partiel :");
@@ -46,7 +46,7 @@ public class Note {
 			} else {
 				noteFinale = noteExam;
 			}
-			Terminal.ecrireStringln("Résultat: Reussi avec note finale :" + noteFinale);
+			Terminal.ecrireStringln("RÃ©sultat: Reussi avec note finale :" + noteFinale);
 		}
 	}
 }

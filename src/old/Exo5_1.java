@@ -1,4 +1,4 @@
-class Exo5_1 {
+﻿class Exo5_1 {
 	public static void main(String[] args) {
 		int x;
 		Terminal.ecrireString("Un entier svp: ");

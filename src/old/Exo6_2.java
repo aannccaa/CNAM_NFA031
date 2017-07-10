@@ -1,5 +1,5 @@
-//combien de fois on peut multiplier un nombre introduit 
-//par l'utilisateur par lui même pour obtenir un résultat inférieur à 1000?
+ï»¿//combien de fois on peut multiplier un nombre introduit 
+//par l'utilisateur par lui mÃªme pour obtenir un rÃ©sultat infÃ©rieur Ã  1000?
 class Exo6_2 {
 	public static void main(String[] args) {
 		int puis = 1;
@@ -11,7 +11,7 @@ class Exo6_2 {
 			res = res * x;
 			puis = puis + 1;
 		}
-		Terminal.ecrireString("Le résultat est ");
+		Terminal.ecrireString("Le rÃ©sultat est ");
 		Terminal.ecrireInt(puis);
 		Terminal.sautDeLigne();
 	}
