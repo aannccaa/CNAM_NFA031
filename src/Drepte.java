@@ -35,15 +35,15 @@ public class Drepte {
 	}
 
 	public static boolean isStar(double y, double x) {
-		x = (x -10)*.6;
-		y = (y - 10);
-		//return (y <= x) && (y <= -1 * x + (nbLines -2));
+		// x = (x -10)*.6;
+		// y = (y - 10);
+		return (y <= x) && (y <= -1 * x + (nbLines -2));
 		// return (y <= - 1 * x + 1* (nbLines - 1));
 		// return x % 2 == 0 linie x , line y
 		// return (x+y) % 2 == 0;//sah
 		// return x==y; //diagonala
 		// return y == -x + (2*nbLines-1);
 		//return (x <3 && y <3) || (x > 4 && y > 4) ;
-		return (x*x + y*y < 25);
+		//return (x*x + y*y < 25);
 	}
 }
